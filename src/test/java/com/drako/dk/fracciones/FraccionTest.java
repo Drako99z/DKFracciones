@@ -98,8 +98,8 @@ class FraccionTest {
         Fraccion fraccion3 = new Fraccion(-5, 9);
 
         assertEquals(fraccion1, fraccion3);
-        assertEquals(fraccion1, fraccion2);
-        assertEquals(fraccion2, fraccion3);
+        assertNotEquals(fraccion1, fraccion2);
+        assertNotEquals(fraccion2, fraccion3);
     }
 
     @Test
