@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.drako</groupId>
+    <artifactId>dk-fracciones</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>DKFracciones</name>
+    <description>Librería para manejar fracciones, fracciones mixtas y operaciones matemáticas entre ellas</description>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Drako99z Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Drako99z/DKFracciones</url>
+        </repository>
+    </distributionManagement>
+</project>
